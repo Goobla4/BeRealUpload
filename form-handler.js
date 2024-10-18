@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     statusMessage.textContent = 'Uploading... Please wait.';
 
     try {
-      const response = await fetch('https://your-username.pythonanywhere.com/upload', {
+      const response = await fetch('https://Goobla.pythonanywhere.com/upload', {
         method: 'POST',
         body: formData
       });
